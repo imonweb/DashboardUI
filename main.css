@@ -1,0 +1,97 @@
+:root{
+    --white:white;
+    --black:black;
+    --orange:#ff8f00;
+    --darkblue:#100c63;
+    --blue:#5447C8; 
+    --seablue:#6559cd; 
+    --grey:#b3adb1;
+    --lightgrey:#f3f0f0;
+    --red:#d1410d;
+    --yellow:rgba(255, 255, 0, 0.87);
+    --brown:#594348;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0px;    
+    background-color: transparent;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;    
+}
+
+ h2,h4,h5{
+    margin:1rem;
+    font-size: 16px;
+}
+
+h3 , p{
+    font-size: 14px;
+    margin: .6rem;
+}
+span{
+    font-size: 12px;
+}
+
+
+ /* color */
+ .white{
+     color: var(--white);
+ }
+ .black{
+    color:var(--black);
+}
+.orange{
+    color: var(--orange);
+}
+
+.grey{
+    color: var(--grey)
+}
+.lightgrey {
+    color: var(--lightgrey);
+}
+
+.blue{
+    color: var(--blue);
+}
+
+
+.bg-black{
+    background-color: var(--black);
+}
+
+.bg-white{
+    background: var(--white);
+}
+
+.bg-orange{
+    background-color: var(--orange); 
+}
+
+.bg-blue {
+    background-color: var(--blue); 
+}
+
+.bg-darkblue{
+    background-color: var(--darkblue);
+}
+
+.bg-lightgrey{
+    background-color: var(--lightgrey); 
+}
+
+.bg-grey{
+    background-color: var(--grey);
+}
+
+.bg-yellow{
+    background-color: var(--yellow);
+}
+/* font-weight */
+
+.fw{
+    font-weight: 800;
+}
